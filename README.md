@@ -1,7 +1,7 @@
 # Requireris
 
 This application was generated using JHipster, you can find documentation and help at [https://jhipster.github.io](https://jhipster.github.io).
-Requireris is an OTP generator which generates one-time passwords suitable with Google Authenticator. It was made with a backend Java and a front-end in HTML, CSS and AngularJS.
+Requireris is an OTP generator which generates one-time passwords suitable with Google Authenticator. It was made with a backend Java and a front-end in HTML, CSS and AngularJS. The secret key are stored in Firebase so you can generate a code with just one click. If you don't wan't to connect, you can always provide your secret key for a code.
 
 ![alt tag](https://raw.githubusercontent.com/Poncholay/OTPGenerator/master/demo/demo.png)
 

@@ -3,6 +3,8 @@
 This application was generated using JHipster, you can find documentation and help at [https://jhipster.github.io](https://jhipster.github.io).
 Requireris is an OTP generator which generates one-time passwords suitable with Google Authenticator. It was made with a backend Java and a front-end in HTML, CSS and AngularJS.
 
+![alt tag](https://raw.githubusercontent.com/Poncholay/OTPGenerator/master/demo/demo.png)
+
 ## Development
 
 Before you can build this project, you must install and configure the following dependencies on your machine:
@@ -45,41 +47,8 @@ To ensure everything worked, run:
 
 Then navigate to [http://localhost:8080](http://localhost:8080) in your browser.
 
-## Testing
-
-Unit tests are run by [Karma][] and written with [Jasmine][]. They're located in `src/test/javascript/` and can be run with:
-
-    gulp test
-
-
-
-Performance tests are run by [Gatling]() and written in Scala. They're located in `src/test/gatling` and can be run with:
-
-    ./mvnw gatling:execute
-
-    
-## Continuous Integration
-
-To setup this project in Jenkins, use the following configuration:
-
-* Project name: `Requireris`
-* Source Code Management
-    * Git Repository: `git@github.com:xxxx/Requireris.git`
-    * Branches to build: `*/master`
-    * Additional Behaviours: `Wipe out repository & force clone`
-* Build Triggers
-    * Poll SCM / Schedule: `H/5 * * * *`
-* Build
-    * Invoke Maven / Tasks: `-Pprod clean package`
-* Post-build Actions
-    * Publish JUnit test result report / Test Report XMLs: `build/test-results/*.xml`
-
 [JHipster]: https://jhipster.github.io/
-[Gatling]: http://gatling.io/
 [Node.js]: https://nodejs.org/
 [Bower]: http://bower.io/
 [Gulp]: http://gulpjs.com/
 [BrowserSync]: http://www.browsersync.io/
-[Karma]: http://karma-runner.github.io/
-[Jasmine]: http://jasmine.github.io/2.0/introduction.html
-[Protractor]: https://angular.github.io/protractor/
